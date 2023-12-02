@@ -1,18 +1,19 @@
 {
-  "manifest_version": 2,
-  "name": "SearXNG — Privacy Search Engine",
-  "version": "1.5",
-  "author": "Erghel",
+  "manifest_version": 3,
+  "name": "SearXNG @ search.daveking.co.nz",
+  "version": "1.0",
+  "author": "dave@daveking.com",
   "default_locale": "en",
   "description": "__MSG_extensionDescription__",
   "icons": {
     "48": "searxng48.webp"
   },
-  "browser_action": {
+  "action": {
     "default_title": "SearXNG"
   },
   "browser_specific_settings": {
     "gecko": {
+	  "id": "searchxng@daveking.co.nz",
       "strict_min_version": "64.0"
     }
   },
